@@ -1,0 +1,170 @@
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.placeholder img{
+    width: 300px;
+    height: 298px;
+    margin-right: 150px;
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  } 
+  
+   .active:after {
+    content: "\2212";
+  } 
+  
+   .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden; 
+    transition: max-height 0.2s ease-out; 
+    background-color: #f1f1f1;
+  }  
+
+.logo-img {
+    margin-right: 50px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+
+div h1{
+    
+    font-size: 24px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    padding-right: 50px;
+    list-style-type: none;
+}
+
+
+.heading2 {
+    width: 300;
+}
+
+.ptext {
+    width: 300px;
+}
+
+h2{
+    font-size: 48px;
+    color: #f9faf8;
+    
+}
+
+.below {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    
+}
+
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
+button {
+    background-color: blue;
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 100px;
+    height: 40px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    background-color: #3882f6;
+  }
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+ .info img {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+  }
+.info {
+    max-width: 200px;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+.something {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.box p{
+    box-sizing: border-box;
+    width: 500px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
+    border-radius: 10px 140px 30px 140px;
+    
+}
+
+div button {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+   
+}
+
+@media screen and (max-width: 1200px) and (min-width: 994p) {
+    
+}
