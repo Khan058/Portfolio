@@ -40,7 +40,7 @@ header {
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-family: "Pacifico", cursive;
-  
+
 }
 
 /* This is the navbar at the bottom */
@@ -59,6 +59,7 @@ header {
 #navbar {
   transition: 0.3s;
 }
+
 .chow-now h2 {
   display: block;
   margin: 0;
@@ -67,16 +68,16 @@ header {
   float: left;
   clear: both;
   padding-right: 15px;
-  
+
 }
 
 h2 {
   font-family: "Pacifico", cursive;
   padding-top: 15px;
-  
+
 }
 
-/* This Menu items */ 
+/* This Menu items */
 
 .menu-items {
   display: flex;
@@ -132,12 +133,12 @@ a {
   font-weight: 700;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
-  
+
 }
 
 a {
   color: yellow;
-  
+
 }
 
 .chow-now .chow-3 {
@@ -147,6 +148,7 @@ a {
   border-left: 20px;
   font-size: 20px;
 }
+
 .chow-now .chow-3 a {
   transition: all, .5s;
   background: red;
@@ -161,6 +163,7 @@ a {
 a {
   color: yellow;
 }
+
 /* this main part of website */
 
 #container div {
@@ -200,35 +203,65 @@ p {
   color: yellow;
 }
 
-  /* The main menu */
-  #main-menu {
-    padding-top: 400px;
-  }
-  .wrap {
-    display: block;
-    margin: 0 auto;
-    /* max-width: 700px; */
-  }
+/* The main menu */
+#main-menu {
+  padding-top: 400px;
+}
 
-  .entry-content {
-    text-align: center;
-    margin-bottom: 1.5em;
-  }
+.wrap {
+  display: block;
+  margin: 0 auto;
+  /* max-width: 700px; */
+}
 
-  .entry-content h2 {
-    font-family: "Pacifico", cursive;
-    clear: both;
-    color: #fff;
-  }
+.entry-content {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
 
-@media  (max-width: 767px) {
+.entry-content h2 {
+  font-family: "Pacifico", cursive;
+  clear: both;
+  color: #fff;
+}
+
+.grid {
+  position: relative;
+  top: 450px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+div>p {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: 'Lobster', cursive;
+}
+
+/* .flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+} */
+
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
   .menu-items {
     flex-direction: column;
     align-items: center;
   }
-  .chow-now  {
+
+  .chow-now {
     opacity: 80%;
   }
+
   .chow-now .chow-1 {
     width: 100%;
     padding-bottom: 5px;
@@ -245,11 +278,15 @@ p {
     padding-left: 0;
     border: 0;
   }
+
   .chow-now .chow-3 {
     width: 100%;
     font-size: 1em;
     padding-left: 0;
     border: 0;
   }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-  
