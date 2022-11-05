@@ -89,7 +89,7 @@ h1 .colour {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #123 url(https://unsplash.it/900);
+  background: rgb(14, 30, 47);
   background-size: cover;
   background-position: top;
 
@@ -173,7 +173,7 @@ h2 {
 
 /* Footer Content Styling */
 .footer {
-  background: #123 url(https://unsplash.it/900);
+  background: rgb(14, 30, 47);
   color: white;
   text-align: center;
   padding-bottom: 3em;
@@ -249,23 +249,15 @@ h2 {
     max-width: 390px;
     width: 100%;
     height: auto;
-
-
-    .main-text {
-      font-size: 1.5em;
-    }
-
-    .footer-items {
-
-      width: 100%;
-
-
-    }
-
-    .footer-text {
-      font-size: 1.3em;
-
-      width: 100%;
-
-    }
   }
+
+  .main-text {
+    font-size: 1.5em;
+  }
+
+  .footer-text {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+}
